@@ -1,0 +1,8 @@
+numpy>=1.21
+pandas>=1.4
+matplotlib>=3.5
+seaborn>=0.11
+nltk>=3.8
+scikit-learn>=1.2
+xgboost>=2.0
+wordcloud>=1.9
