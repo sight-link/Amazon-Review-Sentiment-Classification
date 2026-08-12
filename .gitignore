@@ -1,0 +1,23 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Generated figures
+outputs/
+*.png
+*.jpg
+
+# Local dataset file
+amazon.csv
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Logs & temp files
+*.log
+tmp/
