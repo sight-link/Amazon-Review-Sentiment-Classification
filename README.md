@@ -24,15 +24,15 @@ Attach dataset karkavelrajaj/amazon-sales-dataset
 ### On local Jupyter: Download amazon.csv and put it in project root folder.
 
 **Text Data Analysis**
-![Static Preview of Text Data Analysis](./outputs/World_Cloud.png)
+![Static Preview of Text Data Analysis](./output_figures/World_Cloud.png)
 **Text Data Analysis**
-![Static Preview of Text Data Analysis](./outputs/Top_15_frequent_words.png)
+![Static Preview of Text Data Analysis](./output_figures/Top_15_frequent_words.png)
 **Confusion Matrix for 3 Models**
-![Static Preview of Text Data Analysis](./outputs/Confusion_Matrix_Comparison.png)
+![Static Preview of Text Data Analysis](./output_figures/Confusion_Matrix_Comparison.png)
 **t-SNE Non-linear Dimensional Reduction on Test TF-IDF Features**
-![Static Preview of Text Data Analysis](./outputs/tsne_Projection_of_Text_TF-IDF_features.png)
+![Static Preview of Text Data Analysis](./output_figures/tsne_Projection_of_Text_TF-IDF_features.png)
 **XGBoost Validation LogLoss Convergence Curve**
-![Static Preview of Text Data Analysis](./outputs/XGBoost_Loss_Curve.png)
+![Static Preview of Text Data Analysis](./output_figures/XGBoost_Loss_Curve.png)
 
 Kaggle Notebook: https://www.kaggle.com/code/jenniferxfl/amazon-review-sentiment-classification
 GitHub Repository: https://github.com/sight-link/Amazon-Review-Sentiment-Classification/tree/main
