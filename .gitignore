@@ -1,4 +1,4 @@
-outputs/*.png
+output_figures/*.png
 *.ipynb_checkpoints/
 __pycache__/
 amazon.csv
