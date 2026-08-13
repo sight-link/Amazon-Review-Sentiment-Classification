@@ -34,7 +34,7 @@ Attach dataset karkavelrajaj/amazon-sales-dataset
 **XGBoost Validation LogLoss Convergence Curve**
 ![Static Preview of Text Data Analysis](./output_figures/XGBoost_Loss_Curve.png)
 
-Kaggle Notebook: https://www.kaggle.com/code/jenniferxfl/amazon-review-sentiment-classification
+Kaggle Notebook: https://www.kaggle.com/code/jenniferxfl/amazon-review-sentiment-classification  
 GitHub Repository: https://github.com/sight-link/Amazon-Review-Sentiment-Classification/tree/main
 
 ## Portfolio polish suggestion
