@@ -1,23 +1,8 @@
-# Python cache files
+outputs/*.png
+*.ipynb_checkpoints/
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.ipynb_checkpoints/
-
-# Generated figures
-outputs/
-*.png
-*.jpg
-
-# Local dataset file
 amazon.csv
-
-# Virtual environment
-venv/
-env/
-*.env
-
-# Logs & temp files
+*.zip
 *.log
-tmp/
+*.pyc
+.DS_Store
