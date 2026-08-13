@@ -21,4 +21,13 @@ Core columns used:
 - `review_content`: User product review text
 - `rating`: Numeric star rating for sentiment labeling
 
-## Repository Structure
+**Text Data Analysis**
+![Static Preview of Text Data Analysis](./outputs/World_Cloud.png)
+**Text Data Analysis**
+![Static Preview of Text Data Analysis](./outputs/Top_15_frequent_words.png)
+**Confusion Matrix for 3 Models**
+![Static Preview of Text Data Analysis](./outputs/Confusion_Matrix_Comparison.png)
+**t-SNE Non-linear Dimensional Reduction on Test TF-IDF Features**
+![Static Preview of Text Data Analysis](./outputs/tsne_Projection_of_Text_TF-IDF_features.png)
+**XGBoost Validation LogLoss Convergence Curve**
+![Static Preview of Text Data Analysis](./outputs/XGBoost_Loss_Curve.png)
