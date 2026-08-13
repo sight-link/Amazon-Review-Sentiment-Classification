@@ -16,10 +16,12 @@ Full workflow:
 6. Comprehensive evaluation: classification report, confusion matrix, t-SNE feature visualization, XGBoost loss curve
 
 ## Dataset
-Source: https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset
+### On Kaggle: https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset
 Core columns used:
 - `review_content`: User product review text
 - `rating`: Numeric star rating for sentiment labeling
+Attach dataset karkavelrajaj/amazon-sales-dataset
+### On local Jupyter: Download amazon.csv and put it in project root folder.
 
 **Text Data Analysis**
 ![Static Preview of Text Data Analysis](./outputs/World_Cloud.png)
@@ -31,3 +33,16 @@ Core columns used:
 ![Static Preview of Text Data Analysis](./outputs/tsne_Projection_of_Text_TF-IDF_features.png)
 **XGBoost Validation LogLoss Convergence Curve**
 ![Static Preview of Text Data Analysis](./outputs/XGBoost_Loss_Curve.png)
+
+Kaggle Notebook: https://www.kaggle.com/code/jenniferxfl/amazon-review-sentiment-classification
+GitHub Repository: https://github.com/sight-link/Amazon-Review-Sentiment-Classification/tree/main
+
+## Portfolio polish suggestion
+Keep notebook output rendered when publish on Kaggle, do NOT use full‑clear‑output mode
+GitHub README embed sample figures from output_figures
+Mark model metrics clearly in README table, show accuracy/precision/recall of Naive Bayes / SVM / XGBoost
+
+## Common troubleshooting note
+If local figures look distorted: Restart jupyter kernel and run all cells from scratch
+If dataset reading fails: Print glob.glob("./*.csv") to verify local file existence
+Model performance discrepancy: Confirm using identical original amazon.csv dataset, avoid truncated or modified csv file.
