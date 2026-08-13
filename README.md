@@ -54,9 +54,6 @@ print("XGBoost Report:\n", classification_report(y_test, pred_xgb))
 
 - Copy the macro avg row values and fill into the markdown table above.
 
-Kaggle Notebook: https://www.kaggle.com/code/jenniferxfl/amazon-review-sentiment-classification  
-GitHub Repository: https://github.com/sight-link/Amazon-Review-Sentiment-Classification/tree/main
-
 ## Common troubleshooting note
 If local figures look distorted: Restart jupyter kernel and run all cells from scratch
 If dataset reading fails: Print glob.glob("./*.csv") to verify local file existence
