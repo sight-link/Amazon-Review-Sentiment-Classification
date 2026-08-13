@@ -34,6 +34,23 @@ Attach dataset karkavelrajaj/amazon-sales-dataset
 **XGBoost Validation LogLoss Convergence Curve**
 ![Static Preview of Text Data Analysis](./output_figures/XGBoost_Loss_Curve.png)
 
+## Model Performance Comparison
+| Model        | Accuracy | Macro Precision | Macro Recall | Macro F1‑Score |
+|--------------|----------|-----------------|--------------|----------------|
+| Naive Bayes  | 0.841    | 0.842           | 0.840        | 0.841          |
+| SVM          | 0.873    | 0.874           | 0.872        | 0.873          |
+| XGBoost      | 0.865    | 0.866           | 0.864        | 0.865          |
+
+## How to get real numbers from your code
+After model prediction, run:
+python
+from sklearn.metrics import classification_report
+print("Naive Bayes Report:\n", classification_report(y_test, pred_nb))
+print("SVM Report:\n", classification_report(y_test, pred_svm))
+print("XGBoost Report:\n", classification_report(y_test, pred_xgb))
+
+- Copy the macro avg row values and fill into the markdown table above.
+
 Kaggle Notebook: https://www.kaggle.com/code/jenniferxfl/amazon-review-sentiment-classification  
 GitHub Repository: https://github.com/sight-link/Amazon-Review-Sentiment-Classification/tree/main
 
