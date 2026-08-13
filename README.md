@@ -1,6 +1,8 @@
 # Amazon Review Sentiment Classification
 End-to-end text sentiment analysis pipeline for Amazon product reviews, comparing 3 classic machine learning models: Multinomial Naive Bayes, Linear SVM, and XGBoost.
+
 Kaggle Notebook: https://www.kaggle.com/code/jenniferxfl/amazon-review-sentiment-classification
+GitHub Repository: https://github.com/sight-link/Amazon-Review-Sentiment-Classification
 
 ## Project Overview
 We build a binary sentiment classification task:
@@ -15,9 +17,10 @@ Full workflow:
 5. Model training & hyperparameter optimization
 6. Comprehensive evaluation: classification report, confusion matrix, t-SNE feature visualization, XGBoost loss curve
 
-## Dataset
-On Kaggle: https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset
-On local Jupyter: Download amazon.csv and put it in project root folder.
+### How to Run
+- **Kaggle**: Attach dataset `karkavelrajaj/amazon‑sales‑dataset` via `Add Data`.
+- **Local Jupyter**: Download `amazon.csv` and place it in your project root folder.
+> This code auto‑detects Kaggle / local environment, no manual path modification required.
 Core columns used:
 - `review_content`: User product review text
 - `rating`: Numeric star rating for sentiment labeling
