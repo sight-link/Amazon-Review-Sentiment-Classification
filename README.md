@@ -16,12 +16,12 @@ Full workflow:
 6. Comprehensive evaluation: classification report, confusion matrix, t-SNE feature visualization, XGBoost loss curve
 
 ## Dataset
-### On Kaggle: https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset
+On Kaggle: https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset
+On local Jupyter: Download amazon.csv and put it in project root folder.
 Core columns used:
 - `review_content`: User product review text
 - `rating`: Numeric star rating for sentiment labeling
 Attach dataset karkavelrajaj/amazon-sales-dataset
-### On local Jupyter: Download amazon.csv and put it in project root folder.
 
 **Text Data Analysis**
 ![Static Preview of Text Data Analysis](./output_figures/World_Cloud.png)
