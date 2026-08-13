@@ -37,11 +37,6 @@ Attach dataset karkavelrajaj/amazon-sales-dataset
 Kaggle Notebook: https://www.kaggle.com/code/jenniferxfl/amazon-review-sentiment-classification  
 GitHub Repository: https://github.com/sight-link/Amazon-Review-Sentiment-Classification/tree/main
 
-## Portfolio polish suggestion
-Keep notebook output rendered when publish on Kaggle, do NOT use full‑clear‑output mode
-GitHub README embed sample figures from output_figures
-Mark model metrics clearly in README table, show accuracy/precision/recall of Naive Bayes / SVM / XGBoost
-
 ## Common troubleshooting note
 If local figures look distorted: Restart jupyter kernel and run all cells from scratch
 If dataset reading fails: Print glob.glob("./*.csv") to verify local file existence
