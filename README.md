@@ -1,7 +1,7 @@
 # Amazon Review Sentiment Classification
 End-to-end text sentiment analysis pipeline for Amazon product reviews, comparing 3 classic machine learning models: Multinomial Naive Bayes, Linear SVM, and XGBoost.
 
-Kaggle Notebook: https://www.kaggle.com/code/jenniferxfl/amazon-review-sentiment-classification
+Kaggle Notebook: https://www.kaggle.com/code/jenniferxfl/amazon-review-sentiment-classification  
 GitHub Repository: https://github.com/sight-link/Amazon-Review-Sentiment-Classification
 
 ## Project Overview
