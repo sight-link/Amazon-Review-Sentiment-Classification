@@ -23,10 +23,10 @@ Core columns used:
 - `rating`: Numeric star rating for sentiment labeling
 Attach dataset karkavelrajaj/amazon-sales-dataset
 
-**Text Data Analysis**
+## Text Data Analysis
 ![Static Preview of Text Data Analysis](./output_figures/World_Cloud.png)
-**Text Data Analysis**
 ![Static Preview of Text Data Analysis](./output_figures/Top_15_frequent_words.png)
+
 **Confusion Matrix for 3 Models**
 ![Static Preview of Text Data Analysis](./output_figures/Confusion_Matrix_Comparison.png)
 **t-SNE Non-linear Dimensional Reduction on Test TF-IDF Features**
